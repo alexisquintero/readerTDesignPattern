@@ -32,6 +32,8 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , hspec
+    , lens
     , lifted-async
     , mtl
     , say
@@ -45,12 +47,15 @@ executable readerPattern-exe
       ConcurrentlyTvar
       HasTypeclass1
       HasTypeclass2
+      HasTypeclass3Lens
       Paths_readerPattern
   hs-source-dirs:
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , hspec
+    , lens
     , lifted-async
     , mtl
     , readerPattern
@@ -62,12 +67,15 @@ test-suite readerPattern-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      HasTypeclass2Spec
       Paths_readerPattern
   hs-source-dirs:
       test
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
+    , hspec
+    , lens
     , lifted-async
     , mtl
     , readerPattern

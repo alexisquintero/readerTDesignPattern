@@ -25,6 +25,8 @@ dependencies:
 - lifted-async
 - stm
 - say
+- hspec
+- lens
 
 library:
   source-dirs: src
@@ -50,3 +52,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - readerPattern
+    - hspec

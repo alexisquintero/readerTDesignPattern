@@ -4,6 +4,7 @@ import ConcurrentlyModify
 import ConcurrentlyTvar
 import qualified HasTypeclass1 as HT1
 import qualified HasTypeclass2 as HT2
+import qualified HasTypeclass3Lens as HT3
 
 main :: IO ()
 main = do
@@ -15,3 +16,5 @@ main = do
   HT1.main
   putStrLn "Has typeclass 2"
   HT2.main
+  putStrLn "Has typeclass 3"
+  HT3.main

@@ -1,2 +1,4 @@
+import qualified HasTypeclass2Spec as HT2S
+
 main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+main = HT2s.main
