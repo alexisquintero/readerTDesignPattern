@@ -24,6 +24,7 @@ dependencies:
 - mtl
 - lifted-async
 - stm
+- say
 
 library:
   source-dirs: src
