@@ -1,0 +1,3 @@
+# readerPattern
+
+Based on https://www.fpcomplete.com/blog/2017/06/readert-design-pattern/
