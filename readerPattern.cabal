@@ -48,6 +48,7 @@ executable readerPattern-exe
       HasTypeclass1
       HasTypeclass2
       HasTypeclass3Lens
+      RegainPurity
       Paths_readerPattern
   hs-source-dirs:
       app
@@ -68,6 +69,7 @@ test-suite readerPattern-test
   main-is: Spec.hs
   other-modules:
       HasTypeclass2Spec
+      RegainPuritySpec
       Paths_readerPattern
   hs-source-dirs:
       test
