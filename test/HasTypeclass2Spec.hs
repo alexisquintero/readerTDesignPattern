@@ -5,7 +5,7 @@ import Test.Hspec
 import Control.Monad.Reader
 import Control.Concurrent.STM
 
-import HasTypeclass2 -- TODO: Fix
+import HasTypeclass2
 
 main :: IO ()
 main = hspec $ do

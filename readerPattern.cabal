@@ -25,7 +25,12 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      ConcurrentlyModify
+      ConcurrentlyTvar
+      HasTypeclass1
+      HasTypeclass2
+      HasTypeclass3Lens
+      RegainPurity
   other-modules:
       Paths_readerPattern
   hs-source-dirs:
@@ -43,12 +48,6 @@ library
 executable readerPattern-exe
   main-is: Main.hs
   other-modules:
-      ConcurrentlyModify
-      ConcurrentlyTvar
-      HasTypeclass1
-      HasTypeclass2
-      HasTypeclass3Lens
-      RegainPurity
       Paths_readerPattern
   hs-source-dirs:
       app

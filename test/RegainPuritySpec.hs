@@ -6,7 +6,7 @@ import Control.Monad.Reader
 import qualified Control.Monad.State as State
 import Control.Concurrent.STM
 
-import RegainPurity -- TODO: Fix
+import RegainPurity
 
 main :: IO ()
 main = hspec $ do
